@@ -23,3 +23,5 @@ let array10 = [10, 6, 5, 4, 3, 1, 6, 7, 8];
 console.time("选择排序时间");
 console.log(JSON.stringify(sort(array10)));
 console.timeEnd("选择排序时间");
+
+export default sort;

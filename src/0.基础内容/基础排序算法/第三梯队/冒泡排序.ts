@@ -211,3 +211,5 @@ console.time("冒泡排序有序优化所耗费时间");
 console.log(JSON.stringify(bubbleSortSix(array5)));
 
 console.timeEnd("冒泡排序有序优化所耗费时间");
+
+export default bubbleSortSix;
