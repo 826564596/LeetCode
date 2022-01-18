@@ -1,7 +1,6 @@
 // 归并排序
 // 思想：把数组拆成两两一组，有序合并，并递归，经典的分治思想
-
-//时间复杂度：O(nlogn)
+//时间复杂度：O(nlogn) 空间复杂度：O(n) 是否稳定：稳定 但是需要额外的merge数组 需要额外空间
 function merge(left: number[], right: number[]) {
     let arr: number[] = [];
     //每次都截取第一个数,left和right长度每次都会减少
@@ -57,6 +56,6 @@ function main() {
     console.timeEnd();
 }
 
-main();
+// main();
 
 export default mergeSort;

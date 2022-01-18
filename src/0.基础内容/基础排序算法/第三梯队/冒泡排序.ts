@@ -1,10 +1,6 @@
-/**
- * 冒泡排序的思想：把相邻的元素两两比较，当一个元素大于右侧相邻元素时，交换它们的位置；当一个元素小于或者等于右侧相邻元素时，位置不变
- * @param array
- */
-
-import { constants } from "buffer";
-import { listenerCount } from "process";
+//冒泡排序
+//冒泡排序的思想：把相邻的元素两两比较，当一个元素大于右侧相邻元素时，交换它们的位置；当一个元素小于或者等于右侧相邻元素时，位置不变
+//时间复杂度：O(n2) 空间复杂度：O(1) 是否稳定:稳定
 
 //升序排序
 function bubbleSort(array: number[]) {
